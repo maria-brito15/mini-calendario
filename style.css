@@ -1,0 +1,41 @@
+body {
+  font-family: Monocraft, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: rgb(125, 125, 241);
+}
+.calendar-card {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 180px;
+  height: 200px;
+}
+.calendar-card .month {
+  background-color: #FF4500; 
+  color: white;
+  font-weight: 600;
+  margin-bottom: 10px;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  padding: 5px;
+}
+.calendar-card .day {
+  color: gray;
+  font-size: 14px;
+  margin: 5px 0;
+}
+.calendar-card .date {
+  font-size: 50px;
+  font-weight: bold;
+  margin: 5px 0;
+  color: black;
+}
+.calendar-card .year {
+  color: gray;
+  font-size: 14px;
+}
